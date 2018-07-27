@@ -28,6 +28,7 @@ class mainApp:
         self.btn_faceIdentify = tkinter.Button(window, text="Identify", width=int(self.vid.width / self.button_scale),
                                                command=self.identify)
         self.btn_faceIdentify.pack(side=tkinter.RIGHT, anchor=tkinter.CENTER, expand=False)
+
         self.btn_snapshot = tkinter.Button(window, text="Snapshot", width=int(self.vid.width / self.button_scale),
                                            command=self.snapshot)
         self.btn_snapshot.pack(side=tkinter.RIGHT, anchor=tkinter.CENTER, expand=False)

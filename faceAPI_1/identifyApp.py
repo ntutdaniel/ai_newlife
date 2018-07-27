@@ -4,6 +4,7 @@ import cv2
 import PIL.Image, PIL.ImageTk, PIL.ImageDraw, PIL.ImageFont
 import time
 from FacaApi import FaceApi
+import threading
 
 
 class identifyApp:
@@ -24,17 +25,23 @@ class identifyApp:
 
         # identity canva
         self.canvas = tkinter.Canvas(window, width=self.width, height=self.height)
-        self.canvas.pack(side=tkinter.LEFT)
+        self.canvas.pack()
 
-        # label
         self.info_labelText = tkinter.StringVar()
         self.info = tkinter.Label(window, textvariable=self.info_labelText)
         self.info.pack()
 
-        self.delay = 10
-        self.identify()
+        self.updateLabelText(self.info_labelText, "processing...")
+        #self.delay = 10
+        #self.identify()
+        self.thread_way()
 
         self.window.mainloop()
+
+    def thread_way(self):
+        th = threading.Thread(target=self.identify, args=())
+        th.setDaemon(True)
+        th.start()
 
     def identify(self):
         filename = "./photo/frame" + time.strftime("%d%m%Y%H%M%S") + ".jpg"
