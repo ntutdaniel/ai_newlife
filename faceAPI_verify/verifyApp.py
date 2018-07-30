@@ -5,60 +5,77 @@ import PIL.Image, PIL.ImageTk, PIL.ImageDraw, PIL.ImageFont
 import time
 from FacaApi import FaceApi
 import threading
+import tkinter.messagebox
 
 
-class identifyApp:
-    def __init__(self, window, window_title, frame=None, canva_info=None):
+class verifyApp:
+    def __init__(self, window, window_title, frame=None, img_path=''):
         self.window = window
         self.window.title(window_title)
         self.frame = frame
+        self.img_path = img_path
 
-        self.window.geometry("640x520")  # You want the size of the app to be 500x500
+        self.window.geometry("300x50")  # You want the size of the app to be 500x500
         self.window.resizable(1, 1)
-
-        if (canva_info == None):
-            self.width = 640
-            self.height = 480
-        else:
-            self.width = canva_info["width"]
-            self.height = canva_info["height"]
-
-        # identity canva
-        self.canvas = tkinter.Canvas(window, width=self.width, height=self.height)
-        self.canvas.pack()
 
         self.info_labelText = tkinter.StringVar()
         self.info = tkinter.Label(window, textvariable=self.info_labelText)
-        self.info.pack()
+        self.info.pack(anchor=tkinter.CENTER)
 
         self.updateLabelText(self.info_labelText, "processing...")
+        # self.delay = 10
+        # self.identify()
+        temp_file_name = self.frameTofile()
+
+        self.path_array = []
+        self.path_array.append(temp_file_name)
+        self.path_array.append(img_path)
+
         self.thread_way()
 
         self.window.mainloop()
 
     def thread_way(self):
-        th = threading.Thread(target=self.identify, args=())
+        th = threading.Thread(target=self.verify, args=())
         th.setDaemon(True)
         th.start()
 
-    def identify(self):
+    def frameTofile(self):
         filename = "./photo/frame" + time.strftime("%d%m%Y%H%M%S") + ".jpg"
         cv2.imwrite(filename,
                     cv2.cvtColor(self.frame, cv2.COLOR_RGB2BGR))
+        return filename
 
-        face = FaceApi(filename)
-        face_info = face.upload()
-        print(face_info)
+    def verify(self):
+        temp_faceIds = []
+        face = FaceApi()
+        for item in self.path_array:
+            face_info = face.detect(item)
+            if (len(face_info) > 0):
+                temp_faceIds.append(face_info[0][u'faceId'])
 
-        if (len(face_info) == 0):
-            self.updateLabelText(self.info_labelText, "no face detected")
+        if len(temp_faceIds) != 2:
+            tkinter.messagebox.showinfo(title='warning', message='please use human face')
+            return
         else:
-            self.updateLabelText(self.info_labelText, "face detected")
+            verify_info = face.verify(temp_faceIds[0], temp_faceIds[1])
+            temp_str = "Is same persion：" + str(verify_info["isIdentical"]) + ", confidence：" + str(
+                verify_info["confidence"])
+            self.updateLabelText(self.info_labelText, "successful")
+            tkinter.messagebox.showinfo(title='successful', message=temp_str)
 
-        new_frame = self.drawRectangle(filename, face_info)
+            return
 
-        self.photo = PIL.ImageTk.PhotoImage(image=new_frame)
-        self.canvas.create_image(0, 0, image=self.photo, anchor=tkinter.NW)
+    #
+    # if (len(face_info) == 0):
+    #     self.updateLabelText(self.info_labelText, "no face detected")
+    # else:
+    #     self.updateLabelText(self.info_labelText, "face detected")
+    #
+    # new_frame = self.drawRectangle(filename, face_info)
+    #
+    # self.photo = PIL.ImageTk.PhotoImage(image=new_frame)
+    # self.canvas.create_image(0, 0, image=self.photo, anchor=tkinter.NW)
 
     def updateLabelText(self, label_txt, txt):
         label_txt.set(txt)
