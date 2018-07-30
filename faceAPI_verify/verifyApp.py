@@ -58,11 +58,13 @@ class verifyApp:
             tkinter.messagebox.showinfo(title='warning', message='please use human face')
             return
         else:
+            self.updateLabelText(self.info_labelText, "done")
             verify_info = face.verify(temp_faceIds[0], temp_faceIds[1])
+
             temp_str = "Is same persion：" + str(verify_info["isIdentical"]) + ", confidence：" + str(
                 verify_info["confidence"])
-            self.updateLabelText(self.info_labelText, "successful")
             tkinter.messagebox.showinfo(title='successful', message=temp_str)
+            self.window.destroy()
 
             return
 

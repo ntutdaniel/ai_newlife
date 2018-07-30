@@ -64,8 +64,14 @@ class mainApp:
         filename = tkinter.filedialog.askopenfilename()
         if filename != '':
             self.img_path_label.config(text="filename：" + filename)
+            basewidth = 640
+
             self.img_path = filename
             self.img = PIL.Image.open(filename)
+            #img resize
+            wpercent = (basewidth / float(self.img.size[0]))
+            hsize = int((float(self.img.size[1]) * float(wpercent)))
+            self.img = self.img.resize((basewidth, hsize), PIL.Image.ANTIALIAS)
             self.img = PIL.ImageTk.PhotoImage(self.img)
 
             self.showImg(self.img)
