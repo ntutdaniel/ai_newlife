@@ -92,7 +92,7 @@ class identifyApp:
             temp_text = "Age=" + str(a[u'faceAttributes'][u'age']) + "\n" + "Gender=" + a[u'faceAttributes'][u'gender'] + "\n" + "Smile=" + str(a[u'faceAttributes'][u'smile'])+ "\n" + "Glasses=" + a[u'faceAttributes'][u'glasses']
             draw.text([c[0][0], c[0][1] - ps], temp_text,
                       font=font)
-        newimg.show()
+        #newimg.show()
 
         return newimg
 
