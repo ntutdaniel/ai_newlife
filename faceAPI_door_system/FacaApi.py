@@ -68,7 +68,6 @@ class FaceApi:
 
     def train(self, path, faces):
         self.dataset_detect = []
-
         # 打開資料夾
         temp_dict = getFaceDict(path)
         temp_list = []
@@ -85,8 +84,8 @@ class FaceApi:
                     self.dataset_detect.append({'faceId': temp_id[0]["faceId"], 'name': getDirName(dic)})
                     temp_arrays.append(temp_id[0]["faceId"])
             temp_list += temp_arrays
-        
-        # print(self.dataset_detect)
+
+        #print(self.dataset_detect)
 
         # group
         face_ids = []

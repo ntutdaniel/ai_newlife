@@ -25,7 +25,7 @@ class mainApp:
 
         self.button_scale = 30
         # Button
-        self.btn_faceIdentify = tkinter.Button(window, text="Identify", width=int(self.vid.width / self.button_scale),
+        self.btn_faceIdentify = tkinter.Button(window, text="Recognize", width=int(self.vid.width / self.button_scale),
                                                command=self.identify)
         self.btn_faceIdentify.pack(side=tkinter.RIGHT, anchor=tkinter.CENTER, expand=False)
 
@@ -56,7 +56,7 @@ class mainApp:
 
         identify_root = tkinter.Toplevel(self.window)
 
-        identify_windows = identifyApp(identify_root, 'identify', frame, canva_info)
+        identify_windows = identifyApp(identify_root, 'recognize', frame, canva_info)
 
     def update(self):
         # Get a frame from the video source
