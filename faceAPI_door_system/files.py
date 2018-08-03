@@ -11,7 +11,7 @@ def getDirName(name):
     return os.path.basename(name)
 
 def getDirFiles(dir):
-    files = [os.path.join(dir, o) for o in os.listdir(dir) if not os.path.isdir(os.path.join(dir,o)) and imghdr.what(os.path.join(dir,o)) != None]
+    files = [os.path.join(dir, o) for o in os.listdir(dir) if not os.path.isdir(os.path.join(dir,o))]
     return files
 
 def getFaceDict(dir):

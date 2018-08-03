@@ -28,9 +28,46 @@ class FaceApi:
         
         return faces
 
+    def detect2(self, path):
+        headers = {
+            'Content-Type': 'application/octet-stream',
+            'Ocp-Apim-Subscription-Key': self.subscription_key,
+        }
+
+        params = {
+            'returnFaceId': 'true',
+            'returnFaceLandmarks': 'false',
+            'returnFaceAttributes': 'age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise',
+        }
+
+        with open(path, 'rb') as f:
+            img_data = f.read()
+
+        try:
+            response = requests.post(self.uri_base + 'detect',
+                                     data=img_data,
+                                     headers=headers,
+                                     params=params)
+
+            print('Response:')
+
+            parsed = response.json()
+
+            print(parsed)
+
+            if (len(parsed) == 0):
+                print('no face detected')
+
+            return parsed
+
+
+
+        except Exception as e:
+            print('Error:')
+            print(e)
+
     def train(self, path, faces):
         self.dataset_detect = []
-
         # 打開資料夾
         temp_dict = getFaceDict(path)
         temp_list = []
@@ -38,15 +75,17 @@ class FaceApi:
         for dic, imgs in temp_dict.items():
             temp_arrays = []
             for img in imgs:
-                temp_link = upload_photo(img)
+                #temp_link = upload_photo(img)
                 # face detect 
-                temp_id = (CF.face.detect(temp_link))
+                #temp_id = (CF.face.detect(temp_link))
+
+                temp_id = self.detect2(img)
                 if(len(temp_id)!=0):
                     self.dataset_detect.append({'faceId': temp_id[0]["faceId"], 'name': getDirName(dic)})
                     temp_arrays.append(temp_id[0]["faceId"])
             temp_list += temp_arrays
-        
-        # print(self.dataset_detect)
+
+        #print(self.dataset_detect)
 
         # group
         face_ids = []

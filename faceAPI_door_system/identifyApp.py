@@ -51,7 +51,7 @@ class identifyApp:
                     cv2.cvtColor(self.frame, cv2.COLOR_RGB2BGR))
 
         face = FaceApi()
-        face_info = face.detect(filename)
+        face_info = face.detect2(filename)
         print(json.dumps(face_info, sort_keys=True, indent=2))
 
         # train
@@ -62,7 +62,7 @@ class identifyApp:
         else:
             self.updateLabelText(self.info_labelText, "face detected")
 
-        new_frame = self.drawRectangle(filename, face_info, match_id, faceDictionary, dataset_detect)
+        new_frame = self.drawRectangle(filename, match_id, faceDictionary, dataset_detect)
 
         self.photo = PIL.ImageTk.PhotoImage(image=new_frame)
         self.canvas.create_image(0, 0, image=self.photo, anchor=tkinter.NW)
@@ -70,7 +70,7 @@ class identifyApp:
     def updateLabelText(self, label_txt, txt):
         label_txt.set(txt)
 
-    def drawRectangle(self, path, parsed, match_id, faceDictionary, dataset_detect):
+    def drawRectangle(self, path, match_id, faceDictionary, dataset_detect):
         newimg = PIL.Image.open(path)
         draw = PIL.ImageDraw.Draw(newimg)
         # 判斷其大小
@@ -88,10 +88,10 @@ class identifyApp:
         draw.ink = 255 + 0 * 256 + 0 * 256 * 256
 
         # 給每個識別出的人臉畫框、並標識年齡
-        for a in parsed:
-            b = a[u'faceRectangle']
-            c = self.getRectangle(b)
-            draw.rectangle(c, outline='red')
+        for a in faceDictionary:
+            b1 = a[u'faceRectangle']
+            c1 = self.getRectangle(b1)
+            draw.rectangle(c1, outline='red')
 
         # test
         showname = ''
@@ -107,11 +107,10 @@ class identifyApp:
                     find_match_name = 1
             
             # find the location
+            temp_face_info = {}
             for face in faceDictionary:
                 if face['faceId'] in set(id):
-                    rect = face['faceRectangle']
-                    left = rect['left']
-                    top = rect['top']
+                    temp_face_info = face
                     find_match_location = 1
             print(find_match_name,find_match_location)
 
@@ -119,9 +118,11 @@ class identifyApp:
             if (find_match_location == 1) and (find_match_name == 1):
                 print('match!!')
                 # set font
-                draw.rectangle(c, outline='green')
-                temp_text = "Name=" + showname + "\n" + "Age=" + str(a[u'faceAttributes'][u'age']) + "\n" + "Gender=" + a[u'faceAttributes'][u'gender'] + "\n" + "Smile=" + str(a[u'faceAttributes'][u'smile'])+ "\n" + "Glasses=" + a[u'faceAttributes'][u'glasses']
-                draw.text([c[0][0], c[0][1] - ps], temp_text, font = font, fill=(255,0,0,255))
+                b2 = temp_face_info[u'faceRectangle']
+                c2 = self.getRectangle(b2)
+                draw.rectangle(c2, outline='green')
+                temp_text = "Name=" + showname + "\n" + "Age=" + str(temp_face_info[u'faceAttributes'][u'age']) + "\n" + "Gender=" + temp_face_info[u'faceAttributes'][u'gender'] + "\n" + "Smile=" + str(temp_face_info[u'faceAttributes'][u'smile'])+ "\n" + "Glasses=" + temp_face_info[u'faceAttributes'][u'glasses']
+                draw.text([c2[0][0], c2[0][1] - ps], temp_text, font = font, fill=(255,0,0,255))
         return newimg
 
     def getRectangle(self, mydata):
