@@ -7,7 +7,7 @@ import json
 
 class FaceApi:
     uri_base = 'https://westus.api.cognitive.microsoft.com/face/v1.0/'
-    subscription_key = '6f3d49e1c3114f3bafff32b821adf874'
+    subscription_key = ''
 
     CF.Key.set(subscription_key)
     CF.BaseUrl.set(uri_base)

@@ -2,8 +2,8 @@ import requests
 
 
 class FaceApi:
-    uri_base = 'https://westus.api.cognitive.microsoft.com'
-    subscription_key = '6f3d49e1c3114f3bafff32b821adf874'
+    uri_base = ''
+    subscription_key = ''
 
     detect_face_api = '/face/v1.0/detect'
     verify_face_api = '/face/v1.0/verify'
