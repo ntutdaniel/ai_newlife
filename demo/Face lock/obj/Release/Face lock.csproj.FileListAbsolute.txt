@@ -1,0 +1,5 @@
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Release\Face_lock.IdentityResultForm.resources
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Release\Face_lock.MyForm.resources
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Release\Face_lock.Properties.Resources.resources
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Release\Face lock.csproj.GenerateResource.cache
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Release\Face lock.csproj.CoreCompileInputs.cache

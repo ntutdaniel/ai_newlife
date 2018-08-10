@@ -1,0 +1,167 @@
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Face lock.exe.config
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Face lock.exe.manifest
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Face lock.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Face lock.pdb
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.Contrib.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.Cuda.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2010.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2012.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2013.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.DebuggerVisualizers.VS2015.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.ML.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.OCR.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.Shape.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.Stitching.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.Superres.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.UI.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.UI.GL.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.VideoStab.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.Util.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.CameraCapture.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.FaceDetection.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.HelloWorld.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.HelloWorld.vshost.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.LicensePlateRecognition.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.MotionDetection.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.OCR.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.PedestrianDetection.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.PlanarSubdivision.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.ShapeDetection.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.SURFFeature.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.TrafficSignRecognition.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.VideoSurveilance.exe
+D:\Windows Programming\Face lock\Face lock\bin\Debug\ZedGraph.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.pdb
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.xml
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.Contrib.xml
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.Cuda.xml
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.ML.xml
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.OCR.xml
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.Shape.xml
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.Stitching.xml
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.Superres.xml
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.UI.xml
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.UI.GL.xml
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.CV.VideoStab.xml
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.Util.pdb
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Emgu.Util.xml
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Example.HelloWorld.pdb
+D:\Windows Programming\Face lock\Face lock\bin\Debug\zh-Hant\Microsoft.VisualStudio.DebuggerVisualizers.resources.dll
+D:\Windows Programming\Face lock\Face lock\obj\Debug\Face lock.csprojResolveAssemblyReference.cache
+D:\Windows Programming\Face lock\Face lock\obj\Debug\Face lock.csproj.Face lock.exe.config
+D:\Windows Programming\Face lock\Face lock\obj\Debug\Face_lock.Properties.Resources.resources
+D:\Windows Programming\Face lock\Face lock\obj\Debug\Face lock.csproj.GenerateResource.Cache
+D:\Windows Programming\Face lock\Face lock\obj\Debug\Face lock.exe.manifest
+D:\Windows Programming\Face lock\Face lock\obj\Debug\Face lock.exe
+D:\Windows Programming\Face lock\Face lock\obj\Debug\Face lock.pdb
+D:\Windows Programming\Face lock\Face lock\obj\Debug\Face_lock.MyForm.resources
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Microsoft.ProjectOxford.Face.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Newtonsoft.Json.dll
+D:\Windows Programming\Face lock\Face lock\bin\Debug\Newtonsoft.Json.xml
+D:\Windows Programming\Face lock\Face lock\obj\Debug\Face_lock.IdentityResultForm.resources
+K:\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Face lock.exe.config
+K:\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.exe
+K:\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.pdb
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Face lock.exe.config
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Face lock.exe.manifest
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Face lock.exe
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Face lock.pdb
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Microsoft.ProjectOxford.Face.dll
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Newtonsoft.Json.dll
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.pdb
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.Contrib.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.Cuda.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.ML.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.OCR.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.Shape.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.Stitching.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.Superres.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.UI.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.UI.GL.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.VideoStab.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.Util.pdb
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.Util.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Example.HelloWorld.pdb
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Newtonsoft.Json.xml
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\zh-Hant\Microsoft.VisualStudio.DebuggerVisualizers.resources.dll
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.csprojResolveAssemblyReference.cache
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.csproj.Face lock.exe.config
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face_lock.IdentityResultForm.resources
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face_lock.MyForm.resources
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face_lock.Properties.Resources.resources
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.csproj.GenerateResource.Cache
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.exe.manifest
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.exe
+C:\Users\s1025\Dropbox\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.pdb
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Face lock.exe.config
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.exe
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.pdb
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Face lock.exe.manifest
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Face lock.exe
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Face lock.pdb
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Microsoft.ProjectOxford.Face.dll
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Newtonsoft.Json.dll
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.pdb
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.Contrib.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.Cuda.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.ML.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.OCR.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.Shape.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.Stitching.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.Superres.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.UI.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.UI.GL.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.CV.VideoStab.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.Util.pdb
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Emgu.Util.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Example.HelloWorld.pdb
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\Newtonsoft.Json.xml
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\bin\Debug\zh-Hant\Microsoft.VisualStudio.DebuggerVisualizers.resources.dll
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.csprojResolveAssemblyReference.cache
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.csproj.Face lock.exe.config
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face_lock.IdentityResultForm.resources
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face_lock.MyForm.resources
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face_lock.Properties.Resources.resources
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.csproj.GenerateResource.Cache
+K:\Google Drive\台北科技大學\三下\NTUT\三下\影像\Face-lock_V7\Face lock\Face lock\obj\Debug\Face lock.exe.manifest
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Face lock.exe.config
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Face lock.exe.manifest
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Face lock.exe
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Face lock.pdb
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Microsoft.ProjectOxford.Face.dll
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.CV.pdb
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.CV.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.CV.Contrib.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.CV.Cuda.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.CV.ML.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.CV.OCR.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.CV.Shape.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.CV.Stitching.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.CV.Superres.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.CV.UI.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.CV.UI.GL.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.CV.VideoStab.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.Util.pdb
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Emgu.Util.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Example.HelloWorld.pdb
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\Newtonsoft.Json.xml
+C:\Users\daniel\Desktop\Face lock\Face lock\bin\Debug\zh-Hant\Microsoft.VisualStudio.DebuggerVisualizers.resources.dll
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Debug\Face lock.csprojAssemblyReference.cache
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Debug\Face lock.exe.config
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Debug\Face_lock.IdentityResultForm.resources
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Debug\Face_lock.MyForm.resources
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Debug\Face_lock.Properties.Resources.resources
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Debug\Face lock.csproj.GenerateResource.cache
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Debug\Face lock.csproj.CoreCompileInputs.cache
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Debug\Face lock.exe.manifest
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Debug\Face lock.csproj.CopyComplete
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Debug\Face lock.exe
+C:\Users\daniel\Desktop\Face lock\Face lock\obj\Debug\Face lock.pdb
