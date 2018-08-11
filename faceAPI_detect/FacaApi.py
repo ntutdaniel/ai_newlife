@@ -1,8 +1,8 @@
 import requests
 
 class FaceApi:
-    uri_base = ''
-    subscription_key = ''
+    uri_base = 'https://westus.api.cognitive.microsoft.com'
+    subscription_key = '6f3d49e1c3114f3bafff32b821adf874'
 
     headers = {
         'Content-Type': 'application/octet-stream',
